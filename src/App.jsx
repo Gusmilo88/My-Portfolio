@@ -1,14 +1,14 @@
-import Spline from '@splinetool/react-spline'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
 
 function App() {
 
   return (
-    <>
-      <h1>Hola</h1>
-      <Spline scene="https://prod.spline.design/hSE6LJD9LiS-1xgS/scene.splinecode" />
-
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   )
 }
 

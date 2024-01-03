@@ -1,0 +1,8 @@
+.divGemContainer {
+    width: 400px; 
+    height: 400px; 
+}
+
+.gem img {
+    max-width: 100%; /* Asegura que la gema no se extienda más allá de su contenedor */
+}
