@@ -1,4 +1,19 @@
+.div-text{
+    
+}
+
 .h1Title {
     font-family: 'Montserrat', sans-serif;
-
+    font-size: 7vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.gradient-text-name {
+    background: linear-gradient(to right, #00bcd4, #8e44ad);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: text-shadow 0.3s ease; 
+  }
+

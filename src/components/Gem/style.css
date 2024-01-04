@@ -1,6 +1,7 @@
 .divGemContainer {
     width: 400px; 
     height: 400px; 
+    margin: 10px;
 }
 
 .gem img {

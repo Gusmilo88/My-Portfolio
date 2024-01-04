@@ -1,0 +1,6 @@
+.div-name-gem {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: space-around;
+}
