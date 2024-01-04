@@ -58,7 +58,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link
-                    to={"/"}
+                    to={"#technologies"}
                     className="block py-2 pr-4 pl-3"
                     aria-current="page"
                   >
