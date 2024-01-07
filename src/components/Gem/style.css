@@ -1,9 +1,66 @@
-.divGemContainer {
-    width: 400px; 
-    height: 400px; 
-    margin: 10px;
+.div-Container {
+    display: flex;
+    justify-content: center;
 }
 
-.gem img {
-    max-width: 100%; /* Asegura que la gema no se extienda más allá de su contenedor */
+.divGemContainer {
+    display: flex;
+    width: 400px; 
+    height: 100vh; 
+    flex-direction: column;
+
+}
+
+.div-text{
+    
+}
+
+.h1Title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7vh;
+    text-align: center;
+}
+
+.gradient-text-name {
+    background: linear-gradient(to right, #00bcd4, #8e44ad);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: text-shadow 0.3s ease; 
+  }
+
+
+.div-arrow {
+    display: none;
+}
+
+/* Media query: */
+
+/* tablet ----------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1023px){
+    
+    /* .div-arrow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-arrow {
+        width: 20vh;
+        margin-bottom: 20px;
+    } */
+
+}
+
+/* desktop ----------------------------------------------------------------------*/
+@media (min-width: 1024px) {
+
+    /* .div-arrow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-arrow {
+        width: 25vh;
+        margin-top: 75px;
+    } */
+
 }
