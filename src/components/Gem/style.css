@@ -8,7 +8,6 @@
     width: 400px; 
     height: 100vh; 
     flex-direction: column;
-
 }
 
 .div-text{
@@ -37,8 +36,16 @@
 
 /* tablet ----------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 1023px){
+
+    .divGemContainer {
+        display: flex;
+        width: 100%; 
+        height: 100vh; 
+        flex-direction: row;
+        align-items: center;
+    }
     
-    /* .div-arrow {
+    .div-arrow {
         display: flex;
         justify-content: center;
     }
@@ -46,21 +53,29 @@
     .img-arrow {
         width: 20vh;
         margin-bottom: 20px;
-    } */
+    }
 
 }
 
 /* desktop ----------------------------------------------------------------------*/
 @media (min-width: 1024px) {
 
-    /* .div-arrow {
+    .divGemContainer {
         display: flex;
-        justify-content: center;
+        width: 80%; 
+        height: 100vh; 
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .div-arrow {
+        display: flex;
+
     }
 
     .img-arrow {
         width: 25vh;
-        margin-top: 75px;
-    } */
+        /* margin-top: 75px; */
+    }
 
 }
