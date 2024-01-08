@@ -1,5 +1,5 @@
 #technologies{
-    
+    margin-top: 150px;
 }
 
 
@@ -127,3 +127,23 @@
     }
   }
   
+
+/* Media query: */
+
+/* tablet ----------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1023px){
+
+        #technologies{
+                margin-top: 0px;
+            }
+    
+    }
+    
+    /* desktop ----------------------------------------------------------------------*/
+    @media (min-width: 1024px) {
+    
+        #technologies{
+                margin-top: 0px;
+            }
+    
+    }

@@ -2,7 +2,9 @@ import "./style.css";
 
 const Technologies = () => {
   return (
-    <div id="technologies">
+    <div id="technologies" data-aos="fade-up"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
       <h2 className="technologies-h2"><span className="technologies-span">Technologies</span></h2>
 
       <div className="technologies-container-main">
