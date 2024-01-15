@@ -7,7 +7,7 @@ const Gem = () => {
     <>
     <div className='div-Container' data-aos="zoom-in">
       <div className='divGemContainer'>
-      <h1 className='h1Title'><span className='gradient-text-name'>Gus Romero</span> full stack developer</h1>
+      <h1 className='h1Title'>Hello, I'm <span className='gradient-text-name'>Gus Romero</span> frontend developer</h1>
         <Spline className='gem' scene="https://prod.spline.design/hSE6LJD9LiS-1xgS/scene.splinecode" />
       </div>
     </div>

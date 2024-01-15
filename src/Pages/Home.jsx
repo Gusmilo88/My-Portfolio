@@ -2,7 +2,8 @@ import './style.css'
 import Nav from '../components/Nav'
 import Gem from '../components/Gem'
 import Technologies from '../components/Technologies'
-import { Footer } from 'flowbite-react'
+import Footer from '../components/Footer'
+import Computer from '../components/Computer'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Nav/>
       <Gem/>
       <Technologies/>
+      <Computer/>
       <Footer/>
     </div>
   )
