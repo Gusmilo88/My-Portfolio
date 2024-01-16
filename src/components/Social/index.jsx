@@ -1,16 +1,13 @@
-import'./style.css'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+import "./style.css";
 
 
-
-const Footer = () => {
+const Social = () => {
   return (
     <div>
-  <footer role='footer' className="flex flex-col items-center text-center dark:bg-zinc-900">
-    <div className="container pt-9">
       <div className="mb-9 flex justify-center">
         <Link to={"https://www.facebook.com/GusPollito/"} target="_blank" className="mr-9">
-          <svg id='footerSocialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24">
+          <svg id='socialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24">
             <linearGradient id="gradiente" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" style={{ stopColor: '#00bcd4' }} />
               <stop offset="100%" style={{stopColor: '#8e44ad'}} />
@@ -19,7 +16,7 @@ const Footer = () => {
           </svg>
         </Link>
         <Link to={"mailto:gus_eze1988@hotmail.com"}  target="_blank" className="mr-9 text-neutral-800 dark:text-neutral-200">
-          <svg id='footerSocialLogo' xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+          <svg id='socialLogo' xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
             <linearGradient id="gradiente" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" style={{stopColor: '#d53369'}} />
               <stop offset="100%" style={{stopColor: '#daae51'}} />
@@ -28,7 +25,7 @@ const Footer = () => {
           </svg>
         </Link>
         <Link to={"https://www.instagram.com/gus_romero88/"}  target="_blank" className="mr-9 text-neutral-800 dark:text-neutral-200">
-          <svg id='footerSocialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+          <svg id='socialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
             <linearGradient id="gradiente" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" style={{stopColor: '#d53369'}} />
               <stop offset="100%" style={{stopColor: '#daae51'}} />
@@ -37,7 +34,7 @@ const Footer = () => {
           </svg>
         </Link>
         <Link to={"https://www.linkedin.com/in/gus-romero/"} target="_blank" className="mr-9 text-neutral-800 dark:text-neutral-200">
-          <svg id='footerSocialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+          <svg id='socialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
             <linearGradient id="gradiente" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" style={{stopColor: '#d53369'}} />
               <stop offset="100%" style={{stopColor: '#daae51'}} />
@@ -46,7 +43,7 @@ const Footer = () => {
           </svg>
         </Link>
         <Link to={"https://github.com/Gusmilo88"}  target="_blank" className="text-neutral-800 dark:text-neutral-200">
-          <svg id='footerSocialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+          <svg id='socialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
             <linearGradient id="gradiente" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" style={{stopColor: '#d53369'}} />
               <stop offset="100%" style={{stopColor: '#daae51'}} />
@@ -56,13 +53,7 @@ const Footer = () => {
         </Link>
       </div>
     </div>
-    <div id="footer_copyright" className="w-full bg-neutral-300 p-4 text-center text-neutral-700 dark:bg-zinc-900 dark:text-neutral-200">
-      © 2024 Copyright: All rights reserved by Gus Romero.
-    </div>
-  </footer>
-</div>
-
   )
 }
 
-export default Footer
+export default Social
