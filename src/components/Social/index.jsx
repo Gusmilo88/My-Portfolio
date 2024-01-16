@@ -5,7 +5,7 @@ import "./style.css";
 const Social = () => {
   return (
     <div>
-      <div className="mb-9 flex justify-center">
+      <div className="socialLogos">
         <Link to={"https://www.facebook.com/GusPollito/"} target="_blank" className="mr-9">
           <svg id='socialLogo' xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24">
             <linearGradient id="gradiente" x1="0%" y1="0%" x2="100%" y2="0%">

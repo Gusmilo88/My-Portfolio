@@ -27,6 +27,13 @@
     transition: text-shadow 0.3s ease; 
   }
 
+.gradient-text-name:hover {
+    background: linear-gradient(to right, #8e44ad, #00bcd4);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: text-shadow 0.3s ease; 
+  }
+
 
 .div-arrow {
     display: none;
